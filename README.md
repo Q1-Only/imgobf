@@ -60,8 +60,8 @@ imgobf -c -i input.png -o output.png
 imgobf -d -i output.png -o back.png
 
 :: Obfuscate / de-obfuscate with an explicit password
-imgobf -c -i input.png  -o output.png -p dEepsEek123456
-imgobf -d -i output.png -o back.png   -p dEepsEek123456
+imgobf -c -i input.png  -o output.png -p 123456
+imgobf -d -i output.png -o back.png   -p 123456
 ```
 
 ## How it works
